@@ -89,7 +89,7 @@ do
 	VALID_PASSWORD="OK"
 done
 
-adduser ${SERVICE_USER} -d /home/svc_mdm -m -p $(echo "${SERVICE_PASSWD}" | openssl passwd -1 -stdin) -s /bin/sh
+adduser ${SERVICE_USER} -d /home/${SERVICE_USER} -m -p $(echo "${SERVICE_PASSWD}" | openssl passwd -1 -stdin) -s /bin/sh
 RC=$?
 if [ ${RC} -ne 0 ]
 then
