@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author : Adrien FAVRE <adrien.favre@alterdomus.com>
+# Author : Adrien FAVRE 
 # Created on 02/07/2019
 # Description : Create unix account
 
